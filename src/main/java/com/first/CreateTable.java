@@ -87,6 +87,12 @@ public class CreateTable extends HttpServlet{
 			 * and write jdbc code to fetch one emp data from table based on id
 			 * transfer data(entire Resultset obj itself) to another servlet class
 			 * and display details in console and browser
+			 * -------------------------------------------------------
+			 * create login.html in which create a form to accept email and password:
+			 * read data in servlet class... use email and password as condition
+			 * and fetch emp from table
+			 * if details are coming---login success
+			 * if not--- login failure-----display same login form again
 			 */
 		}
 	}
